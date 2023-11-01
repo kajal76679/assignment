@@ -1,0 +1,149 @@
+[
+    {
+      "name": "computer",
+      "price": 130,
+      "category": "computers",
+      "description": "High-performance computer for gaming and productivity tasks",
+      "image": "computer.jpeg"
+    },
+    {
+      "name": "sweater",
+      "price": 1,
+      "category": "Clothing",
+      "description": "Warm and cozy sweater for the winter season",
+      "image": "sweater.jpeg"
+    },
+    {
+      "name": "coffee maker",
+      "price": 79,
+      "category": "Kitchen Appliances",
+      "description": "Coffee maker for brewing your favorite beverages",
+      "image": "coffeemaker.jpeg"
+    },
+    
+    {
+      "name": "jacket",
+      "price": 190,
+      "category": "Clothing",
+      "description": "Stylish winter jacket to keep you warm",
+      "image": "jacket.jpeg"
+    },
+    {
+      "name": "smartphone",
+      "price": 299,
+      "category": "Electronics",
+      "description": "Feature-packed smartphone with a high-resolution camera",
+      "image": "smartphone.jpeg"
+    },
+    {
+      "name": "toaster",
+      "price": 29,
+      "category": "Kitchen Appliances",
+      "description": "Efficient toaster for quick breakfasts",
+      "image": "toaster.jpeg"
+    },
+    {
+      "name": "printer",
+      "price": 89,
+      "category": "Office Equipment",
+      "description": "High-quality printer for your office needs",
+      "image": "printer.jpeg"
+    },
+    
+    {
+      "name": "headphones",
+      "price": 89,
+      "category": "Electronics",
+      "description": "High-quality headphones for an immersive audio experience",
+      "image": "headphones.jpeg"
+    },
+    {
+      "name": "tablet",
+      "price": 199,
+      "category": "Electronics",
+      "description": "Versatile tablet for work and entertainment",
+      "image": "tablet.jpeg"
+    },
+    {
+      "name": "television",
+      "price": 499,
+      "category": "Electronics",
+      "description": "Large screen TV for a cinematic viewing experience",
+      "image": "television.jpeg"
+    },
+    {
+      "name": "running shoes",
+      "price": 60,
+      "category": "Footwear",
+      "description": "Comfortable running shoes for active lifestyles",
+      "image": "runningshoes.jpeg"
+    },
+    
+    {
+      "name": "watch",
+      "price": 149,
+      "category": "Accessories",
+      "description": "Elegant watch for both casual and formal occasions",
+      "image": "watch.jpeg"
+    },
+    {
+      "name": "backpack",
+      "price": 39,
+      "category": "Bags",
+      "description": "Durable and stylish backpack for daily use",
+      "image": "backpack.jpeg"
+    },
+    
+    
+    {
+      "name": "umbrella",
+      "price": 9,
+      "category": "Accessories",
+      "description": "Compact umbrella for rainy days",
+      "image": "umbrella.jpeg"
+    },
+    {
+      "name": "vacuum cleaner",
+      "price": 149,
+      "category": "Home Appliances",
+      "description": "Powerful vacuum cleaner for a clean home",
+      "image": "vacuumcleaner.jpeg"
+    },
+    {
+      "name": "gaming console",
+      "price": 349,
+      "category": "Electronics",
+      "description": "Next-generation gaming console for entertainment",
+      "image": "gamingconsole.jpeg"
+    },
+    
+    {
+      "name": "desk lamp",
+      "price": 19,
+      "category": "Home Decor",
+      "description": "Adjustable desk lamp for studying and working",
+      "image": "desklamp.jpeg"
+    },
+    {
+      "name": "tie",
+      "price": 46,
+      "category": "Clothing",
+      "description": "Elegant tie for formal occasions",
+      "image": "tie.jpeg"
+    },
+    {
+      "name": "blender",
+      "price": 59,
+      "category": "Kitchen Appliances",
+      "description": "Versatile blender for smoothies and more",
+      "image": "blender.jpeg"
+    },
+    {
+      "name": "back massager",
+      "price": 49,
+      "category": "Health & Wellness",
+      "description": "Relaxing back massager for stress relief",
+      "image": "backmassager.jpeg"
+    }
+  ]
+  
