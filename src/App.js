@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './css/app.css';
 import productData from './products.json';
 import Popup from './components/popup';
+import { useEffect,useCallback } from 'react';
 
 function App() {
   const [selectedProducts, setSelectedProducts] = useState([]);
@@ -14,7 +15,7 @@ function App() {
   const [isPopupOpen, setPopupOpen] = useState(false);
   const [isOverlayVisible, setOverlayVisible] = useState(false);
 
-
+ 
   const handleProcessSale = () => {
     setPopupOpen(true);
     setOverlayVisible(true);
@@ -34,15 +35,18 @@ function App() {
       updatedProducts[productIndex].quantity += 1;
       setSelectedProducts(updatedProducts);
     }
+  
+    calculateTotal();
   };
-
+  
   const handleDeleteProduct = (product) => {
     const updatedProducts = selectedProducts.filter((p) => p.name !== product.name);
     setSelectedProducts(updatedProducts);
     calculateTotal();
   };
+  
 
-  const calculateTotal = () => {
+  const calculateTotal = useCallback(() => {
     const subTotal = selectedProducts.reduce((total, product) => {
       return total + product.price * product.quantity;
     }, 0);
@@ -53,7 +57,12 @@ function App() {
     setTotal(calculatedTotal);
     setVat(vatAmount);
     setDiscount(discountAmount);
-  };
+  }, [selectedProducts, vatPercentage, discountPercentage]);
+  
+  useEffect(() => {
+    calculateTotal();
+  }, [selectedProducts, vatPercentage, discountPercentage, calculateTotal]);
+  
   const handleVatChange = (event) => {
     const inputValue = parseFloat(event.target.value);
     if (!isNaN(inputValue)) {
